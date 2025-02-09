@@ -78,11 +78,11 @@ Denken Sie an diese Sammlung wie an eine gut sortierte Bibliothek: Jedes Kapitel
     - Praktische KI-Anwendungen
 
 ## Für wen ist diese Dokumentation?
+- **Armin**: Kollege, Mastermind und Ägyptologie
+- **Studierende**: Erhalten praktisches Wissen über die Inhalte vom Studium Master Interactive Technologies - Mobile der FHSTP
 - **Entwickler**: Finden praktische Lösungen und Best Practices
-- **Architekten**: Entdecken Strukturen und Patterns
-- **DevOps-Engineers**: Lernen Automatisierung und Deployment
-- **Projektmanager**: Verstehen technische Zusammenhänge
-- **Studierende**: Erhalten praktisches Wissen
+
+
 - **Tech-Leads**: Finden Entscheidungsgrundlagen
 - **KI-Entwickler**: Entdecken Integrationsmöglichkeiten
 
