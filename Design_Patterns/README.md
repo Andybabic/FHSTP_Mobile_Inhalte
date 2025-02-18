@@ -5,7 +5,7 @@ Diese Dokumentation erklärt wichtige Design Patterns (Entwurfsmuster) und wie s
 
 > **Wichtiger Hinweis zur Abdeckung der Themen**: 
 > Im Rahmen der Masterklasse wurden schwerpunktmäßig folgende Kernmuster behandelt:
-> - MVP (Model-View-Presenter)
+> - MVC (Model-View-Controller)
 > - Singleton
 > - Observer
 > - Prototype
@@ -15,13 +15,13 @@ Diese Dokumentation erklärt wichtige Design Patterns (Entwurfsmuster) und wie s
 >
 > Die weiteren Design Patterns (wie Adapter, Decorator, etc.) werden hier zur Vollständigkeit erwähnt, wurden aber nicht im Detail behandelt.
 
-Die Beschreibungen und Konzepte der Design Patterns (außer MVP) basieren auf [Refactoring.guru](https://refactoring.guru/design-patterns/catalog).
+Die Beschreibungen und Konzepte der Design Patterns (außer MVC) basieren auf [Refactoring.guru](https://refactoring.guru/design-patterns/catalog).
 
 ## 1. Kernmuster der Masterklasse
 
-### MVP (Model-View-Presenter) [↗](https://www.microsoft.com/en-us/download/details.aspx?id=55984)
+### MVC (Model-View-Presenter) [↗](https://www.microsoft.com/en-us/download/details.aspx?id=55984)
 #### Was ist das?
-MVP ist wie ein Dirigent (Presenter), der zwischen den Musikern (Model) und dem Publikum (View) vermittelt. Jeder hat seine klare Rolle:
+MVC ist wie ein Dirigent (Presenter), der zwischen den Musikern (Model) und dem Publikum (View) vermittelt. Jeder hat seine klare Rolle:
 - **Model**: Enthält die Daten und Geschäftslogik
 - **View**: Zeigt die Benutzeroberfläche
 - **Presenter**: Koordiniert alles
@@ -133,7 +133,7 @@ Eine "Fabrik" für Objekte - statt direkter Erstellung lässt man die Fabrik die
 
 ## Praktische Beispiele
 Die praktischen Implementierungen finden Sie in den entsprechenden Beispieldateien im `/samples` Verzeichnis:
-- `mvp.ts` - Model-View-Presenter Beispiel
+- `MVC.ts` - Model-View-Presenter Beispiel
 - `singleton.ts` - Singleton Pattern
 - `observer.ts` - Observer Pattern
 - `prototype.ts` - Prototype Pattern
